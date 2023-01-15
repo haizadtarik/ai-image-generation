@@ -35,4 +35,9 @@ Please comply with the term of use as indicated on the model card page when usin
     streamlit run app.py -- <BACKEND_URL>
     ```
 
+## Run using docker
+    ```
+    docker build -t <NAME> .
+    docker run -p 8080:8080 -p 8501:8501 <NAME>
+    ```
 
